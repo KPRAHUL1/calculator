@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.buttons{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+    background-color: rgb(0, 193, 193);
+    border: none;
+    text-shadow: 5px;
+    border-radius: 5px;
+    color: white;
+
+}
+#heading
+{
+    margin-top: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#delete{
+   background-color: red; 
+   color: white;
+  
+}
+.display{
+    padding-left: 140px;
+    padding-top: 20px;
+    margin: 3px;
+}
+#reset{
+    
+    background-color: green;
+
+}
+#equal{
+    
+    background-color: black;
+}
+#dot{
+   font-weight: 800;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web site</title>
+        <link rel="stylesheet" href="assets/index.css">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="container">
+            <div id="heading">
+                <h1 id="#heading">Calculator</h1></div>
+            <input type="text" class="display" id="first-input"><br>
+            <!-- <input type="number" class="display" id="second-input"><br> -->
+            <!-- <input type="text" class="display" id="operators-input"><br> -->
+            <div class="numberss">
+         <div class="numbers"> 
+            <button onclick="argument(7)"class="buttons " value="7">7</button>
+                <button onclick="argument(8)" class="buttons ">8</button>
+                <button class="buttons " onclick="argument(9)">9</button>
+                <button  onclick="calculate()" class="buttons "id="equal">=</button>
+                
+        </div>  
+         <div class="numbers">
+            <button onclick="argument(4)"class="buttons ">4</button>
+               <button onclick="argument(5)"class="buttons ">5</button>
+               <button class="buttons" onclick="argument(6)">6</button>
+               <button onclick="operator('+')" class="buttons">+</button>
+            </div>  
+        <div class="numbers">
+            <button onclick="argument(1)"class="buttons">1</button> 
+                <button onclick="argument(2)"class="buttons ">2</button>
+                <button class="buttons " onclick="argument(3)">3</button>
+                <button onclick="operator('-')"class="buttons ">-</button>
+            </div> 
+            <div class="numbers">
+                <button onclick="argument('.')"class="buttons " id="dot">. </button>
+                <button onclick="argument(0)"class="buttons ">0</button>
+                <button class="buttons" onclick="operator('/')">/</button>
+                <button onclick="operator('*')" class="buttons ">x</button>
+            </div>
+            <div class="numbers">
+                <button onclick="argument()" class="buttons " id="reset">RESET</button>
+                
+                <button onclick="argumentdelete()" class="buttons "  id="delete">Delete</button>
+            </div>
+
+            </div>
+        </div>
+
+        <script src="assets/index.js"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+            integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+            integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+    </body>
+</html>
